@@ -1,0 +1,128 @@
+@media (max-width: 991px) {
+  .nav-right {
+    display: none;
+  }
+  .container{
+    padding: 0 20px !important;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .story {
+    margin: 0;
+    padding: 0 20px;
+  }
+  .about {
+    grid-template-columns: none;
+  }
+  .form-left {
+    width: 100%;
+  }
+  .form {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+  .form-right {
+    max-width: 800px;
+  }
+  .top {
+    padding-top: 140px;
+  }
+  .overlay {
+    padding: 40px 20px;
+    margin: 80px 0;
+    justify-content: center;
+  }
+  .overlay-left,
+  .overlay-right {
+    display: none;
+  }
+  .order {
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+  }
+  .services h1 {
+    font-size: 25px;
+    padding: 0;
+  }
+  .about h3 {
+    font-size: 19px;
+  }
+  .about p,
+  li {
+    font-size: 14px;
+  }
+  .foot1 a {
+    font-size: 14px;
+  }
+  .flex-start {
+    justify-content: start;
+  }
+  .small {
+    font-size: 16px;
+  }
+  .group {
+    padding: 20px 0;
+  }
+  .serve {
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  }
+  .center {
+    text-align: center;
+  }
+  .top1 {
+    padding-top: 80px;
+  }
+  .banner {
+    height: auto;
+  }
+  .border-right {
+    border: none;
+  }
+  .right {
+    padding: 30px 20px;
+    margin: 80px 0;
+  }
+  .ban-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)) !important;
+  }
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+  .start {
+    justify-content: start !important;
+  }
+  .no-flex {
+    display: block;
+  }
+  .pencil i {
+    margin-bottom: 20px;
+  }
+  .mobile i{
+    display: block;
+  }
+  .about{
+    grid-template-columns: 50% auto;
+  }
+  
+}
+@media(max-width:468px){
+  .crt-grid{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about{
+    grid-template-columns:100% ;
+  }
+}
+
+@media (max-width:992px){
+  .nav-icon{
+    display: block;
+    cursor: pointer;
+    font-size: 18px;
+  }
+}
